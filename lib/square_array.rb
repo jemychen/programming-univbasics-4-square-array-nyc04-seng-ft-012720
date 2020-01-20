@@ -3,8 +3,8 @@ def square_array(array)
   array = [array]
   squared = []
   counter = 0
-    while counter < numbers.length
-    squared.push(numbers[counter]*numbers[counter])
+    while counter < array.length
+    squared.push(array[counter]*array[counter])
     counter += 1
    end
    return squared
