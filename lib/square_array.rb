@@ -1,4 +1,4 @@
-def square_array(array)
+def square_array(array,array)
   # your code here
   numbers = [1,2,3]
   new_numbers = [9,10,16,25]
@@ -10,7 +10,7 @@ def square_array(array)
    end
    return squared
     while counter < new_numbers.length
-    squared_array.push(new_numbers[counter]*new_numbers[counter])
+    squared.push(new_numbers[counter]*new_numbers[counter])
     counter += 1
   end
   return squared
