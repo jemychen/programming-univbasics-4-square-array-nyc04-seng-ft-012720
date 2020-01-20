@@ -8,9 +8,4 @@ def square_array(array)
     counter += 1
    end
    return squared
-       while counter < new_numbers.length
-    squared.push(new_numbers[counter]*new_numbers[counter])
-    counter += 1
-  end
-  return squared
 end
