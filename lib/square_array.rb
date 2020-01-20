@@ -13,5 +13,5 @@ def square_array(array)
     squared_array.push(new_numbers[counter]*new_numbers[counter])
     counter += 1
   end
-  return squared_array
+  return squared
 end
