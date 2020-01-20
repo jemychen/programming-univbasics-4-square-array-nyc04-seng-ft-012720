@@ -9,4 +9,4 @@ def square_array(array)
    return squared
 end
 
-p 
+p square_array
